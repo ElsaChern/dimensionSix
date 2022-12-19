@@ -1,150 +1,288 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Dimention Six</title>
-  </head>
-  <body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slider.css">
 
+  <title>Dimention Six</title>
+</head>
+
+<body>
+  <div class="wrapper">
     <header class="header">
-      <nav class="header-nav container_small">              
+      <nav class="header_nav container_big">
         <ul class="menu">
-          <li class="menu-item">
-            <a class="menu-item-link" href="#">Ассортимент</a>
+          <li class="menu_item">
+            <a class="menu_item_link" href="#assortment">Ассортимент</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-item-link" href="#">Услуги</a>
+          <li class="menu_item">
+            <a class="menu_item_link" href="#services">Услуги</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-item-link" href="#">Доставка</a>
+          <li class="menu_item">
+            <a class="menu_item_link" href="#delivery">Доставка</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-item-link" href="#">Отзывы</a>
+          <li class="menu_item">
+            <a class="menu_item_link" href="#review">Отзывы</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-item-link" href="#">Контакты</a>
-          </li>
-        </ul>        
+        </ul>
       </nav>
+      <img src="/img/logo_large.jpg" alt="Логотип" class="logo_img">
+      <p class="promo">Украшения, сделанные в Сибири с любовью &#9825;</p>
     </header>
+  </div>
 
 
-    <main class="main container_small">
-      <div class="mini_galery">
-          <figure class="gallery__item gallery__item--1">
-            <img src="img/Сайт 5.JPEG" class="gallery__img" alt="Image 1">
-          </figure>
-          <figure class="gallery__item gallery__item--3">
-            <img src="img/Сайт 3.JPEG" class="gallery__img" alt="Image 3">
-          </figure>
-          <figure class="gallery__item gallery__item--4">
-            <img src="img/Сайт 6.JPEG" class="gallery__img" alt="Image 4">
-          </figure>
-          <figure class="gallery__item gallery__item--5">
-            <img src="img/Сайт.JPEG" class="gallery__img" alt="Image 5">
-          </figure>
-          <figure class="gallery__item gallery__item--6">
-            <img src="img/Сайт 2.JPEG" class="gallery__img" alt="Image 6">
-          </figure>
-      </div>
+  <main class="main">
+    <div class="mini_galery">
+      <figure class="gallery__item gallery__item--1">
+        <img src="img/Сайт.JPEG" class="gallery__img" alt="Image 1">
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="img/Сайт 2.JPEG" class="gallery__img" alt="Image 2">
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="img/Сайт 3.JPEG" class="gallery__img" alt="Image 3">
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="img/Сайт 4.JPEG" class="gallery__img" alt="Image 4">
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="img/Сайт 5.JPEG" class="gallery__img" alt="Image 5">
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="img/Сайт 6.JPEG" class="gallery__img" alt="Image 6">
+      </figure>
+    </div>
 
 
+    <div class="container_big">
+      <h1>Давайте познакомимся</h1>
       <div class="about_me container_small">
-        <figure class="author_photo">
-          <img src="img/Сайт 7.JPEG" class="gallery__img" alt="Image 1">
-        </figure>
+        <img src="img/Сайт 7.JPEG" width="290px" height="290px" class="author_photo">
         <h3 class="acquaintance">
-          Меня зовут <b>Алина</b>, я сертифицированный мастер. Cоздаю украшения своими руками из премиальной фурнитуры, натуральных камней и многих интересных материалов ✨
+          Привет, меня зовут <b>Алина</b>, я сертифицированный мастер по созданию украшений. <br>
+          <p><b>Три факта обо мне:</p></b>
+          1. обожаю бижутерию с детства, всегда пыталась создать что-то красивое сама;<br>
+          2. у меня было более 130-ти пар серег в школьные времена;<br>
+          3. оставила работу в рознице и офисе чтобы заниматься тем, что люблю. <br><br>
+
+          Для создания украшений я использую только качественные материалы:<br>
+          - бижутерные сплавы с покрытием позолота и родий;<br>
+          - хирургическая сталь;<br>
+          - натуральные камни (агат, кварц, кахолонг и др);<br>
+          - натуральный речной жемчуг;<br>
+          - фурнитура высокого качества;<br>
+          - и дргугие интересные материалы, которые дополняют изделия.
         </h3>
       </div>
+    </div>
 
-
-      <div class="benefits">
-        <div class="container_big">
-          <ul>
-            <li class="benefits-item first">
-              <h2 class="benefits-title">Большой выбор</h2>
-              <p>Cерьги, кольца, колье, чокеры, браслеты, бодичейны, каффы и другое.</p>
-            </li>
-            <li class="benefits-item second">
-              <h2 class="benefits-title">Индивидуальность</h2>
-              <p>Украшения носят авторский характер и не повторяются более чем 2-3 раза.</p>
-            </li>
-            <li class="benefits-item third">
-              <h2 class="benefits-title">Идея для подарка</h2>
-              <p>Также в продаже есть <b>подарочные сертификаты</b> на любую сумму ✨.</p>
-            </li>
-          </ul>
+    <div class="benefits container_big">
+      <div class="iconblock-1">
+        <div class="icon">
+          <img src="img/icon_1.ico" class="img_icon" />
         </div>
+        <h3>Большой выбор</h3>
+        <p>Cерьги, кольца, колье, чокеры, браслеты, бодичейны, каффы </p>
       </div>
-          
-          
-      <div class="qr_links">              
-        <img src="img/inst_me_DimentionSix.JPG" class="qr_1" alt="Image 1">  
+      <div class="iconblock-1">
+        <div class="icon">
+          <img src="img/icon_1.ico" class="img_icon" />
+        </div>
+        <h3>Индивидуальность</h3>
+        <p>Украшения носят авторский характер и не повторяются более чем 2-3 раза</p>
+      </div>
+      <div class="iconblock-1">
+        <div class="icon">
+          <img src="img/icon_1.ico" class="img_icon" />
+        </div>
+        <h3>Идея для подарка</h3>
+        <p>В продаже есть <b>подарочные сертификаты</b> на любую сумму ✨</p>
+      </div>
+    </div>
+
+
+    <div class="container_big">
+      <h1 id="assortment">Ассортимент</h1>
+      <div class="qr_links container_small">
+        <img src="img/inst_me_DimentionSix.JPG" class="qr_1" alt="Image 1">
         <h3 class="qr_text">
-          Актуальное наличие украшений можно посмотреть тут <b> <img src="img/left-1.1s-200px.svg"> <img src="img/right-1.1s-200px.svg">   
-        </h3>        
-        <img src="img/t_me-DimensionSix.jpg"  class="qr_2"alt="Image 1">          
-      </div>  
-          
+          Вы можете ознакомиться с ассортиментом и актуальной информацией, с помощью QR-кодов либо перейдя по ссылкам
+          ниже:
+          <p><a style=text-decoration:none;
+              href="https://instagram.com/dimensionsix.nsk?igshid=YmMyMTA2M2Y=">Instagram</a><br>
+            <i style=font-size:12px;>*Деятельность Instagram в России признана экстремистской и запрещена</i>
+          </p>
+          <p><a style=text-decoration:none; href="https://t.me/DimensionSix">Telegram</a></p>
+        </h3>
+        <img src="img/t_me-DimensionSix.jpg" class="qr_2" alt="Image 1">
+      </div>
+    </div>
+
+
+    <div class="services container_big">
+      <h1 id="services">Услуги</h1>
       <div class="services container_small">
-          <h1>Услуги</h1>
-          <div class="services">
-            <div class=services-items>
-              <h3 class="services_title">1.Ремонт/переделка изделий</h3>
-              <img class="services_img" src="img/Сайт 9.JPEG" alt="">
-              <h3 class="services_info">Ремонт изделий обговаривается индивидуально. </h3>              
+        <div class=services-items>
+          <h3 class="services_title">1. Ремон вашего украшения / переделка старого изделия в новое </h3>
+          <p class="services_info">Бывает так, что у вашего любимого украшения что-то пошло не так: <br>
+            - вышел из строя замочек; <br>
+            - порвалась основа браслета или колье; <br>
+            - потемнела какая-то часть;<br>
+            - потерялась одна серьга;<br>
+            - просто надоело старое украшение...<br>
+            То не стоит расстраиваться, скорее пишите мне, чтобы обсудить возможность ремонта изделия или его переделку.
+          </p>
+          <div class="slider">
+            <div class="slide">
+              <img src="img/repair_1.jpg" alt="">
             </div>
-            <div class="services-items">
-              <h2 class="services_title">2.Изготовление украшений под заказ</h2>
-              <img class="services_img" src="img/photo_10.jpg" alt="">
-              <img class="services_img" src="img/Сайт 10.JPEG" alt="">
-              <img class="services_img" src="img/photo_15.jpg" alt="">
-              <img class="services_img" src="img/photo_9.jpg" alt="">
-              <h3 class="services_info">Есть идея? Или к платью ничего не подходит? Скорее пиши мне и мы подберем и воздадим идеальный вариант ❤️ </h3>              
+
+            <div class="slide">
+              <img src="img/repair_2.jpg" alt="">
             </div>
+
+            <div class="slide">
+              <img src="img/repair_3.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/repair_4.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/repair_5.jpg" alt="">
+            </div>
+
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
           </div>
         </div>
 
 
-          <div class="delivery container_small">
-            <h1>Услуги</h1>
-            <div delivery_info>
-            <figure class="delivery_photo">
-              <img src="img/box-1.1s-200px.svg" class="gallery__img" alt="Image 1">
-            </figure>
-            <h3 class="delivery_text">
-              Дотавка доставка доставка
-            </h3>
+        <div class="services-items">
+          <h2 class="services_title">2. Изготовление украшений под заказ</h2>
+          <p class="services_info">Есть идея? Или к платью ничего не подходит? Скорее пиши мне и мы подберем и создадим
+            идеальный вариант ❤️ </p>
+          <div class="slider">
+            <div class="slide">
+              <img src="img/order_1.jpg" alt="">
             </div>
+
+            <div class="slide">
+              <img src="img/order_2.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/order_3.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/order_4.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/order_5.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/order_6.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/order_7.jpg" alt="">
+            </div>
+
+            <div class="slide">
+              <img src="img/order_8.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/order_9.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/order_10.jpg" alt="">
+            </div>
+
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
           </div>
 
-
-          <div class="review_page">
-            <h1>Отзывы</h1>
-            <figure class="review_photo">
-              <img src="img/review_1.jpg" class="review__img" alt="Image 1">
-              <img src="img/review_2.jpg" class="review__img" alt="Image 1">
-              <img src="img/review_4.jpg" class="review__img" alt="Image 1">
-            </figure>
-          </div>
-    </main>
-
-
-    <footer class="footer">     
-      <div class="footer-bottom">
-        <div class="footer-social">
-          <b>Для заказа украшений или за подробной информацией </b>
-          <a class="social-btn social-btn-vk" href="https://t.me/DimensionSix">Telegram</a>
-          <a class="social-btn social-btn-in" href="https://instagram.com/dimensionsix.nsk?igshid=YmMyMTA2M2Y=">Инстаграм</a>
-          <span class=”phone>
-            <a href=”tel:+380441234567>+38 (044)</span> 123-45-67</a>
-          </span>
         </div>
       </div>
+
+
+      <div class="delivery container_big">
+        <h1 id="delivery">Доставка</h1>
+        <div class="delivery_options">
+          <div class="iconblock-1">
+            <div class="icon">
+              <img src="img/icon_1.ico" class="img_icon" />
+            </div>
+            <h3>по Новосибирску</h3>
+            <p>Доставка по городу Новосибирск осуществлется через<br> любой удобный для вас курьерский сервис. <br>
+              Если необходима примерка, пожалуйста, напишите об этом заранее. </p>
+          </div>
+          <div class="iconblock-1">
+            <div class="icon">
+              <img src="img/icon_1.ico" class="img_icon" />
+            </div>
+            <h3>СДЭК / Почта России</h3>
+            <p>Стоимость доставки рассчитывается индивидуально. Завсит от веса посылки. <br>
+              Не работаем с наложенным платежом.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="review_page container_big">
+        <h1>Отзывы</h1>
+        <div class="slider">
+          <div class="slide">
+            <img src="img/review_1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/review_2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/review_3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/review_4.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/review_5.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/review_6.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/review_7.jpg" alt="">
+          </div>
+          <button class="slider__btn slider__btn--left">&#10094;</button>
+          <button class="slider__btn slider__btn--right">&#10095;</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <b class="footer_info">Для заказа украшений или за подробной информацией </b><br>
+    <div class="footer_social">
+      <a class="social-btn social-btn-wu" href="whatsapp://send/?phone=79994632184">WhatsApp</a>
+      <a class="social-btn social-btn-tg" href="https://t.me/DimensionSix">Telegram</a>
+      <a class="social-btn social-btn-in"
+        href="https://instagram.com/dimensionsix.nsk?igshid=YmMyMTA2M2Y=">Инстаграм</a>
+    </div>
     </header>
-    </footer>
-  </body>
+  </footer>
+  <script src="slider.js"></script>
+</body>
+
 </html>
