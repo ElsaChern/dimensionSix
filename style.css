@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -20,9 +21,15 @@ html, body {
   padding: 0 0.9rem;
 }
 
+
 @media (max-width: 1130px) {
   .container_big {
     max-width: 950px;
+  }
+
+  html,
+  body {
+    font-size: 96%;
   }
 }
 
@@ -30,11 +37,21 @@ html, body {
   .container_big {
     max-width: 750px;
   }
+
+  html,
+  body {
+    font-size: 85%;
+  }
 }
 
 @media (max-width: 767.98px) {
   .container_big {
     max-width: none;
+  }
+
+  html,
+  body {
+    font-size: 80%;
   }
 }
 
@@ -55,7 +72,7 @@ html, body {
   height: auto;
 }
 
-.header {  
+.header {
   background-color: #000000;
 }
 
@@ -186,6 +203,14 @@ html, body {
   border-radius: 0.6rem;
 }
 
+@media (max-width: 334.98px) {
+  .author_photo {
+    height: 220px;
+    width: 220px;
+  }
+}
+
+
 .acquaintance {
   font-size: 1rem;
   line-height: 1.2;
@@ -263,16 +288,17 @@ html, body {
   border-radius: 100px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .benefits {
     display: block;
+    margin-top: 8rem;
   }
 }
 
 /* QR */
 
 .qr_links {
-  margin-top: 50px;
+  margin-top: 3.1rem;
   display: flex;
 }
 
@@ -283,7 +309,7 @@ html, body {
 }
 
 .qr_1 {
-  margin-right: 20px;
+  margin-right: 1.25rem;
   width: 300px;
   height: 310px;
 }
@@ -295,7 +321,7 @@ html, body {
 
 @media (max-width: 767.98px) {
   .qr_links {
-    display:inline-block;
+    display: inline-block;
     text-align: center;
   }
 }
@@ -303,7 +329,7 @@ html, body {
 /* Services */
 
 .services_title {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 600;
   border-bottom: 3px solid rgb(0, 0, 0);
@@ -318,34 +344,38 @@ html, body {
 
 .delivery_options {
   display: flex;
-  margin-top: 30px;
+  margin-top: 1.9rem;
+}
+
+@media (max-width: 768px) {
+  .delivery_options {
+    display: block;
+  }
+}
+
+.review_page {
+  margin-bottom: 2rem;
 }
 
 /* Footer */
 
 .footer {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  color: white;
   background-color: #000000;
-  background-position: right;
-  background-repeat: no-repeat;
-  height: 300px;
+  padding-top: 1rem;
 }
 
-.logo_footer {
-  display: block;
-  
-  max-width: 100%;
-  height: auto;
-}
-
-.footer-social {
-  padding-top: 130px;
+.footer_social {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   font-size: 0;
 }
 
-.footer-social b {
-  margin-left: 80px;
-  font-weight: bold;
-  font-size: 18px;
+.footer_social b {
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -354,10 +384,7 @@ html, body {
   width: 60px;
   height: 60px;
   margin-left: 30px;
-  vertical-align: middle;
-  color: #ffffff;
-
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.6rem;
 }
 
 .social-btn-tg {
@@ -368,6 +395,12 @@ html, body {
 
 .social-btn-in {
   background-image: url("https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?w=360");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social-btn-wu {
+  background-image: url("https://img.freepik.com/premium-vector/whatsapp-icon-in-paper-cut-style-social-media-icons_505135-266.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
